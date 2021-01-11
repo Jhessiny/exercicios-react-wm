@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+// import BomDia from "./componentes/BomDia";
+// import { BoaTarde, BoaNoite } from "./componentes/multiplos";
+// import Multi from "./componentes/multiplos"; usar Multi.BoaTarde
+import Saudacao from "./componentes/saudacao";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <div>
+    <Saudacao />
+    <Saudacao />
+    <Saudacao />
+    <Saudacao />
+  </div>,
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  document.getElementById("root")
+);
