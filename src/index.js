@@ -8,9 +8,6 @@ import Saudacao from "./componentes/saudacao";
 ReactDOM.render(
   <div>
     <Saudacao />
-    <Saudacao />
-    <Saudacao />
-    <Saudacao />
   </div>,
 
   document.getElementById("root")
